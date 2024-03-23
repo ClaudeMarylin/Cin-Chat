@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^accueil/?$ index.php?page=accueil [L,QSA]
+RewriteRule ^connexion/?$ index.php?page=connexion [L,QSA]
+RewriteRule ^contact/?$ index.php?page=contact [L,QSA]
+RewriteRule ^creation/?$ index.php?page=creation [L,QSA]
+RewriteRule ^compte/?$ index.php?page=compte [L,QSA]
+RewriteRule ^logout/?$ index.php?page=logout [L,QSA]
+RewriteRule ^accueil\.php$ - [F]
